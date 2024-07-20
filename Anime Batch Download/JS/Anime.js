@@ -33,7 +33,7 @@ function done() {
 function getLink() {
     let storedText;
     var AnimeShareLinkText = new URL(window.location.origin);
-    var AnimeShareLinkText1 = AnimeShareLinkText + "Anime Batch Download/Data/AnimeShareLink.txt";
+    var AnimeShareLinkText1 = AnimeShareLinkText + "Anime%20Batch%20Download/Data/AnimeShareLink.txt";
     let AnimeId = localStorage.getItem("AnimeId");
 
     fetch(AnimeShareLinkText1)
