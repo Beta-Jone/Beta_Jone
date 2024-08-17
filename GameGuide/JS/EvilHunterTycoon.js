@@ -56,34 +56,34 @@ function SetIndex() {
 function SetIndex1(let) {
     if (let.split("_")[1] == "Costume") {
         if (IndexCostumeDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
         }
         else if (IndexCostumeDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
         }
     }
     else if (let.split("_")[1] == "Weapon") {
         if (IndexWeaponDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
         }
         else if (IndexWeaponDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
         }
     }
     else if (let.split("_")[1] == "Wing") {
         if (IndexWingDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
         }
         else if (IndexWingDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
         }
     }
     else if (let.split("_")[1] == "Medal") {
         if (IndexMedalDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
         }
         else if (IndexMedalDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
         }
     }
 }
@@ -103,41 +103,41 @@ function SetPageData() {
 function IndexCollectionButton(let) {
     if (let.split("_")[1] == "Costume") {
         if (IndexCostumeDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
             IndexCostumeDataText[let.split("_")[2]] = 1;
         }
         else if (IndexCostumeDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
             IndexCostumeDataText[let.split("_")[2]] = 0;
         }
     }
     else if (let.split("_")[1] == "Weapon") {
         if (IndexWeaponDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
             IndexWeaponDataText[let.split("_")[2]] = 1;
         }
         else if (IndexWeaponDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Weapon_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
             IndexWeaponDataText[let.split("_")[2]] = 0;
         }
     }
     else if (let.split("_")[1] == "Wing") {
         if (IndexWingDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
             IndexWingDataText[let.split("_")[2]] = 1;
         }
         else if (IndexWingDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Wing_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
             IndexWingDataText[let.split("_")[2]] = 0;
         }
     }
     else if (let.split("_")[1] == "Medal") {
         if (IndexMedalDataText[let.split("_")[2]] == 0) {
-            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/O.jpg";
+            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
             IndexMedalDataText[let.split("_")[2]] = 1;
         }
         else if (IndexMedalDataText[let.split("_")[2]] == 1) {
-            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../Data/GameGuide/EvilHunterTycoon/X.jpg";
+            document.getElementById("Index_Medal_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/X.jpg";
             IndexMedalDataText[let.split("_")[2]] = 0;
         }
     }
@@ -165,174 +165,174 @@ function StatManagement1() {
     IndexSetOnlyStat = [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0];
 }
 function StatManagement2() {
-    document.getElementById("IndexCostumeEXPStat").innerHTML = IndexCostumeOnlyStat[0] + "%";
-    document.getElementById("IndexCostumeATKStat").innerHTML = IndexCostumeOnlyStat[1] + "%";
-    document.getElementById("IndexCostumeDEFStat").innerHTML = IndexCostumeOnlyStat[2] + "%";
-    document.getElementById("IndexCostumeHPStat").innerHTML = IndexCostumeOnlyStat[3] + "%";
-    document.getElementById("IndexCostumeCRITStat").innerHTML = IndexCostumeOnlyStat[4] + "%";
-    document.getElementById("IndexCostumeCriticalHitDamageStat").innerHTML = IndexCostumeOnlyStat[5] + "%";
-    document.getElementById("IndexCostumeSatietyStat").innerHTML = IndexCostumeOnlyStat[6] + "%";
-    document.getElementById("IndexCostumeChance3rdBookStat").innerHTML = IndexCostumeOnlyStat[7] + "%";
-    document.getElementById("IndexCostumeBossStat").innerHTML = IndexCostumeOnlyStat[8] + "%";
-    document.getElementById("IndexCostumePrimateStat").innerHTML = IndexCostumeOnlyStat[9] + "%";
-    document.getElementById("IndexCostumeStaminaStat").innerHTML = IndexCostumeOnlyStat[10] + "%";
-    document.getElementById("IndexCostumeMoodStat").innerHTML = IndexCostumeOnlyStat[11] + "%";
-    document.getElementById("IndexCostumeUndeadStat").innerHTML = IndexCostumeOnlyStat[12] + "%";
-    document.getElementById("IndexCostumeDemonStat").innerHTML = IndexCostumeOnlyStat[13] + "%";
-    document.getElementById("IndexCostumeAnimalStat").innerHTML = IndexCostumeOnlyStat[14] + "%";
+    document.getElementById("IndexCostumeEXPStat").innerHTML = (IndexCostumeOnlyStat[0] / 100) + "%";
+    document.getElementById("IndexCostumeATKStat").innerHTML = (IndexCostumeOnlyStat[1] / 100) + "%";
+    document.getElementById("IndexCostumeDEFStat").innerHTML = (IndexCostumeOnlyStat[2] / 100) + "%";
+    document.getElementById("IndexCostumeHPStat").innerHTML = (IndexCostumeOnlyStat[3] / 100) + "%";
+    document.getElementById("IndexCostumeCRITStat").innerHTML = (IndexCostumeOnlyStat[4] / 100) + "%";
+    document.getElementById("IndexCostumeCriticalHitDamageStat").innerHTML = (IndexCostumeOnlyStat[5] / 100) + "%";
+    document.getElementById("IndexCostumeSatietyStat").innerHTML = (IndexCostumeOnlyStat[6] / 100) + "%";
+    document.getElementById("IndexCostumeChance3rdBookStat").innerHTML = (IndexCostumeOnlyStat[7] / 100) + "%";
+    document.getElementById("IndexCostumeBossStat").innerHTML = (IndexCostumeOnlyStat[8] / 100) + "%";
+    document.getElementById("IndexCostumePrimateStat").innerHTML = (IndexCostumeOnlyStat[9] / 100) + "%";
+    document.getElementById("IndexCostumeStaminaStat").innerHTML = (IndexCostumeOnlyStat[10] / 100) + "%";
+    document.getElementById("IndexCostumeMoodStat").innerHTML = (IndexCostumeOnlyStat[11] / 100) + "%";
+    document.getElementById("IndexCostumeUndeadStat").innerHTML = (IndexCostumeOnlyStat[12] / 100) + "%";
+    document.getElementById("IndexCostumeDemonStat").innerHTML = (IndexCostumeOnlyStat[13] / 100) + "%";
+    document.getElementById("IndexCostumeAnimalStat").innerHTML = (IndexCostumeOnlyStat[14] / 100) + "%";
 
-    document.getElementById("IndexWeaponEXPStat").innerHTML = IndexWeaponOnlyStat[0] + "%";
-    document.getElementById("IndexWeaponATKStat").innerHTML = IndexWeaponOnlyStat[1] + "%";
-    document.getElementById("IndexWeaponDEFStat").innerHTML = IndexWeaponOnlyStat[2] + "%";
-    document.getElementById("IndexWeaponHPStat").innerHTML = IndexWeaponOnlyStat[3] + "%";
-    document.getElementById("IndexWeaponCRITStat").innerHTML = IndexWeaponOnlyStat[4] + "%";
-    document.getElementById("IndexWeaponCriticalHitDamageStat").innerHTML = IndexWeaponOnlyStat[5] + "%";
-    document.getElementById("IndexWeaponSatietyStat").innerHTML = IndexWeaponOnlyStat[6] + "%";
-    document.getElementById("IndexWeaponChance3rdBookStat").innerHTML = IndexWeaponOnlyStat[7] + "%";
-    document.getElementById("IndexWeaponBossStat").innerHTML = IndexWeaponOnlyStat[8] + "%";
-    document.getElementById("IndexWeaponPrimateStat").innerHTML = IndexWeaponOnlyStat[9] + "%";
-    document.getElementById("IndexWeaponStaminaStat").innerHTML = IndexWeaponOnlyStat[10] + "%";
-    document.getElementById("IndexWeaponMoodStat").innerHTML = IndexWeaponOnlyStat[11] + "%";
-    document.getElementById("IndexWeaponUndeadStat").innerHTML = IndexWeaponOnlyStat[12] + "%";
-    document.getElementById("IndexWeaponDemonStat").innerHTML = IndexWeaponOnlyStat[13] + "%";
-    document.getElementById("IndexWeaponAnimalStat").innerHTML = IndexWeaponOnlyStat[14] + "%";
+    document.getElementById("IndexWeaponEXPStat").innerHTML = (IndexWeaponOnlyStat[0] / 100) + "%";
+    document.getElementById("IndexWeaponATKStat").innerHTML = (IndexWeaponOnlyStat[1] / 100) + "%";
+    document.getElementById("IndexWeaponDEFStat").innerHTML = (IndexWeaponOnlyStat[2] / 100) + "%";
+    document.getElementById("IndexWeaponHPStat").innerHTML = (IndexWeaponOnlyStat[3] / 100) + "%";
+    document.getElementById("IndexWeaponCRITStat").innerHTML = (IndexWeaponOnlyStat[4] / 100) + "%";
+    document.getElementById("IndexWeaponCriticalHitDamageStat").innerHTML = (IndexWeaponOnlyStat[5] / 100) + "%";
+    document.getElementById("IndexWeaponSatietyStat").innerHTML = (IndexWeaponOnlyStat[6] / 100) + "%";
+    document.getElementById("IndexWeaponChance3rdBookStat").innerHTML = (IndexWeaponOnlyStat[7] / 100) + "%";
+    document.getElementById("IndexWeaponBossStat").innerHTML = (IndexWeaponOnlyStat[8] / 100) + "%";
+    document.getElementById("IndexWeaponPrimateStat").innerHTML = (IndexWeaponOnlyStat[9] / 100) + "%";
+    document.getElementById("IndexWeaponStaminaStat").innerHTML = (IndexWeaponOnlyStat[10] / 100) + "%";
+    document.getElementById("IndexWeaponMoodStat").innerHTML = (IndexWeaponOnlyStat[11] / 100) + "%";
+    document.getElementById("IndexWeaponUndeadStat").innerHTML = (IndexWeaponOnlyStat[12] / 100) + "%";
+    document.getElementById("IndexWeaponDemonStat").innerHTML = (IndexWeaponOnlyStat[13] / 100) + "%";
+    document.getElementById("IndexWeaponAnimalStat").innerHTML = (IndexWeaponOnlyStat[14] / 100) + "%";
 
-    document.getElementById("IndexWingEXPStat").innerHTML = IndexWingOnlyStat[0] + "%";
-    document.getElementById("IndexWingATKStat").innerHTML = IndexWingOnlyStat[1] + "%";
-    document.getElementById("IndexWingDEFStat").innerHTML = IndexWingOnlyStat[2] + "%";
-    document.getElementById("IndexWingHPStat").innerHTML = IndexWingOnlyStat[3] + "%";
-    document.getElementById("IndexWingCRITStat").innerHTML = IndexWingOnlyStat[4] + "%";
-    document.getElementById("IndexWingCriticalHitDamageStat").innerHTML = IndexWingOnlyStat[5] + "%";
-    document.getElementById("IndexWingSatietyStat").innerHTML = IndexWingOnlyStat[6] + "%";
-    document.getElementById("IndexWingChance3rdBookStat").innerHTML = IndexWingOnlyStat[7] + "%";
-    document.getElementById("IndexWingBossStat").innerHTML = IndexWingOnlyStat[8] + "%";
-    document.getElementById("IndexWingPrimateStat").innerHTML = IndexWingOnlyStat[9] + "%";
-    document.getElementById("IndexWingStaminaStat").innerHTML = IndexWingOnlyStat[10] + "%";
-    document.getElementById("IndexWingMoodStat").innerHTML = IndexWingOnlyStat[11] + "%";
-    document.getElementById("IndexWingUndeadStat").innerHTML = IndexWingOnlyStat[12] + "%";
-    document.getElementById("IndexWingDemonStat").innerHTML = IndexWingOnlyStat[13] + "%";
-    document.getElementById("IndexWingAnimalStat").innerHTML = IndexWingOnlyStat[14] + "%";
+    document.getElementById("IndexWingEXPStat").innerHTML = (IndexWingOnlyStat[0] / 100) + "%";
+    document.getElementById("IndexWingATKStat").innerHTML = (IndexWingOnlyStat[1] / 100) + "%";
+    document.getElementById("IndexWingDEFStat").innerHTML = (IndexWingOnlyStat[2] / 100) + "%";
+    document.getElementById("IndexWingHPStat").innerHTML = (IndexWingOnlyStat[3] / 100) + "%";
+    document.getElementById("IndexWingCRITStat").innerHTML = (IndexWingOnlyStat[4] / 100) + "%";
+    document.getElementById("IndexWingCriticalHitDamageStat").innerHTML = (IndexWingOnlyStat[5] / 100) + "%";
+    document.getElementById("IndexWingSatietyStat").innerHTML = (IndexWingOnlyStat[6] / 100) + "%";
+    document.getElementById("IndexWingChance3rdBookStat").innerHTML = (IndexWingOnlyStat[7] / 100) + "%";
+    document.getElementById("IndexWingBossStat").innerHTML = (IndexWingOnlyStat[8] / 100) + "%";
+    document.getElementById("IndexWingPrimateStat").innerHTML = (IndexWingOnlyStat[9] / 100) + "%";
+    document.getElementById("IndexWingStaminaStat").innerHTML = (IndexWingOnlyStat[10] / 100) + "%";
+    document.getElementById("IndexWingMoodStat").innerHTML = (IndexWingOnlyStat[11] / 100) + "%";
+    document.getElementById("IndexWingUndeadStat").innerHTML = (IndexWingOnlyStat[12] / 100) + "%";
+    document.getElementById("IndexWingDemonStat").innerHTML = (IndexWingOnlyStat[13] / 100) + "%";
+    document.getElementById("IndexWingAnimalStat").innerHTML = (IndexWingOnlyStat[14] / 100) + "%";
 
-    document.getElementById("IndexMedalEXPStat").innerHTML = IndexMedalOnlyStat[0] + "%";
-    document.getElementById("IndexMedalATKStat").innerHTML = IndexMedalOnlyStat[1] + "%";
-    document.getElementById("IndexMedalDEFStat").innerHTML = IndexMedalOnlyStat[2] + "%";
-    document.getElementById("IndexMedalHPStat").innerHTML = IndexMedalOnlyStat[3] + "%";
-    document.getElementById("IndexMedalCRITStat").innerHTML = IndexMedalOnlyStat[4] + "%";
-    document.getElementById("IndexMedalCriticalHitDamageStat").innerHTML = IndexMedalOnlyStat[5] + "%";
-    document.getElementById("IndexMedalSatietyStat").innerHTML = IndexMedalOnlyStat[6] + "%";
-    document.getElementById("IndexMedalChance3rdBookStat").innerHTML = IndexMedalOnlyStat[7] + "%";
-    document.getElementById("IndexMedalBossStat").innerHTML = IndexMedalOnlyStat[8] + "%";
-    document.getElementById("IndexMedalPrimateStat").innerHTML = IndexMedalOnlyStat[9] + "%";
-    document.getElementById("IndexMedalStaminaStat").innerHTML = IndexMedalOnlyStat[10] + "%";
-    document.getElementById("IndexMedalMoodStat").innerHTML = IndexMedalOnlyStat[11] + "%";
-    document.getElementById("IndexMedalUndeadStat").innerHTML = IndexMedalOnlyStat[12] + "%";
-    document.getElementById("IndexMedalDemonStat").innerHTML = IndexMedalOnlyStat[13] + "%";
-    document.getElementById("IndexMedalAnimalStat").innerHTML = IndexMedalOnlyStat[14] + "%";
+    document.getElementById("IndexMedalEXPStat").innerHTML = (IndexMedalOnlyStat[0] / 100) + "%";
+    document.getElementById("IndexMedalATKStat").innerHTML = (IndexMedalOnlyStat[1] / 100) + "%";
+    document.getElementById("IndexMedalDEFStat").innerHTML = (IndexMedalOnlyStat[2] / 100) + "%";
+    document.getElementById("IndexMedalHPStat").innerHTML = (IndexMedalOnlyStat[3] / 100) + "%";
+    document.getElementById("IndexMedalCRITStat").innerHTML = (IndexMedalOnlyStat[4] / 100) + "%";
+    document.getElementById("IndexMedalCriticalHitDamageStat").innerHTML = (IndexMedalOnlyStat[5] / 100) + "%";
+    document.getElementById("IndexMedalSatietyStat").innerHTML = (IndexMedalOnlyStat[6] / 100) + "%";
+    document.getElementById("IndexMedalChance3rdBookStat").innerHTML = (IndexMedalOnlyStat[7] / 100) + "%";
+    document.getElementById("IndexMedalBossStat").innerHTML = (IndexMedalOnlyStat[8] / 100) + "%";
+    document.getElementById("IndexMedalPrimateStat").innerHTML = (IndexMedalOnlyStat[9] / 100) + "%";
+    document.getElementById("IndexMedalStaminaStat").innerHTML = (IndexMedalOnlyStat[10] / 100) + "%";
+    document.getElementById("IndexMedalMoodStat").innerHTML = (IndexMedalOnlyStat[11] / 100) + "%";
+    document.getElementById("IndexMedalUndeadStat").innerHTML = (IndexMedalOnlyStat[12] / 100) + "%";
+    document.getElementById("IndexMedalDemonStat").innerHTML = (IndexMedalOnlyStat[13] / 100) + "%";
+    document.getElementById("IndexMedalAnimalStat").innerHTML = (IndexMedalOnlyStat[14] / 100) + "%";
 
-    document.getElementById("IndexCollectionEXPStat").innerHTML = (IndexCostumeOnlyStat[0] + IndexWeaponOnlyStat[0] + IndexWingOnlyStat[0] + IndexMedalOnlyStat[0]) + "%";
-    document.getElementById("IndexCollectionATKStat").innerHTML = (IndexCostumeOnlyStat[1] + IndexWeaponOnlyStat[1] + IndexWingOnlyStat[1] + IndexMedalOnlyStat[1]) + "%";
-    document.getElementById("IndexCollectionDEFStat").innerHTML = (IndexCostumeOnlyStat[2] + IndexWeaponOnlyStat[2] + IndexWingOnlyStat[2] + IndexMedalOnlyStat[2]) + "%";
-    document.getElementById("IndexCollectionHPStat").innerHTML = (IndexCostumeOnlyStat[3] + IndexWeaponOnlyStat[3] + IndexWingOnlyStat[3] + IndexMedalOnlyStat[3]) + "%";
-    document.getElementById("IndexCollectionCRITStat").innerHTML = (IndexCostumeOnlyStat[4] + IndexWeaponOnlyStat[4] + IndexWingOnlyStat[4] + IndexMedalOnlyStat[4]) + "%";
-    document.getElementById("IndexCollectionCriticalHitDamageStat").innerHTML = (IndexCostumeOnlyStat[5] + IndexWeaponOnlyStat[5] + IndexWingOnlyStat[5] + IndexMedalOnlyStat[5]) + "%";
-    document.getElementById("IndexCollectionSatietyStat").innerHTML = (IndexCostumeOnlyStat[6] + IndexWeaponOnlyStat[6] + IndexWingOnlyStat[6] + IndexMedalOnlyStat[6]) + "%";
-    document.getElementById("IndexCollectionChance3rdBookStat").innerHTML = (IndexCostumeOnlyStat[7] + IndexWeaponOnlyStat[7] + IndexWingOnlyStat[7] + IndexMedalOnlyStat[7]) + "%";
-    document.getElementById("IndexCollectionBossStat").innerHTML = (IndexCostumeOnlyStat[8] + IndexWeaponOnlyStat[8] + IndexWingOnlyStat[8] + IndexMedalOnlyStat[8]) + "%";
-    document.getElementById("IndexCollectionPrimateStat").innerHTML = (IndexCostumeOnlyStat[9] + IndexWeaponOnlyStat[9] + IndexWingOnlyStat[9] + IndexMedalOnlyStat[9]) + "%";
-    document.getElementById("IndexCollectionStaminaStat").innerHTML = (IndexCostumeOnlyStat[10] + IndexWeaponOnlyStat[10] + IndexWingOnlyStat[10] + IndexMedalOnlyStat[10]) + "%";
-    document.getElementById("IndexCollectionMoodStat").innerHTML = (IndexCostumeOnlyStat[11] + IndexWeaponOnlyStat[11] + IndexWingOnlyStat[11] + IndexMedalOnlyStat[11]) + "%";
-    document.getElementById("IndexCollectionUndeadStat").innerHTML = (IndexCostumeOnlyStat[12] + IndexWeaponOnlyStat[12] + IndexWingOnlyStat[12] + IndexMedalOnlyStat[12]) + "%";
-    document.getElementById("IndexCollectionDemonStat").innerHTML = (IndexCostumeOnlyStat[13] + IndexWeaponOnlyStat[13] + IndexWingOnlyStat[13] + IndexMedalOnlyStat[13]) + "%";
-    document.getElementById("IndexCollectionAnimalStat").innerHTML = (IndexCostumeOnlyStat[14] + IndexWeaponOnlyStat[14] + IndexWingOnlyStat[14] + IndexMedalOnlyStat[14]) + "%";
+    document.getElementById("IndexCollectionEXPStat").innerHTML = ((IndexCostumeOnlyStat[0] + IndexWeaponOnlyStat[0] + IndexWingOnlyStat[0] + IndexMedalOnlyStat[0]) / 100) + "%";
+    document.getElementById("IndexCollectionATKStat").innerHTML = ((IndexCostumeOnlyStat[1] + IndexWeaponOnlyStat[1] + IndexWingOnlyStat[1] + IndexMedalOnlyStat[1]) / 100) + "%";
+    document.getElementById("IndexCollectionDEFStat").innerHTML = ((IndexCostumeOnlyStat[2] + IndexWeaponOnlyStat[2] + IndexWingOnlyStat[2] + IndexMedalOnlyStat[2]) / 100) + "%";
+    document.getElementById("IndexCollectionHPStat").innerHTML = ((IndexCostumeOnlyStat[3] + IndexWeaponOnlyStat[3] + IndexWingOnlyStat[3] + IndexMedalOnlyStat[3]) / 100) + "%";
+    document.getElementById("IndexCollectionCRITStat").innerHTML = ((IndexCostumeOnlyStat[4] + IndexWeaponOnlyStat[4] + IndexWingOnlyStat[4] + IndexMedalOnlyStat[4]) / 100) + "%";
+    document.getElementById("IndexCollectionCriticalHitDamageStat").innerHTML = ((IndexCostumeOnlyStat[5] + IndexWeaponOnlyStat[5] + IndexWingOnlyStat[5] + IndexMedalOnlyStat[5]) / 100) + "%";
+    document.getElementById("IndexCollectionSatietyStat").innerHTML = ((IndexCostumeOnlyStat[6] + IndexWeaponOnlyStat[6] + IndexWingOnlyStat[6] + IndexMedalOnlyStat[6]) / 100) + "%";
+    document.getElementById("IndexCollectionChance3rdBookStat").innerHTML = ((IndexCostumeOnlyStat[7] + IndexWeaponOnlyStat[7] + IndexWingOnlyStat[7] + IndexMedalOnlyStat[7]) / 100) + "%";
+    document.getElementById("IndexCollectionBossStat").innerHTML = ((IndexCostumeOnlyStat[8] + IndexWeaponOnlyStat[8] + IndexWingOnlyStat[8] + IndexMedalOnlyStat[8]) / 100) + "%";
+    document.getElementById("IndexCollectionPrimateStat").innerHTML = ((IndexCostumeOnlyStat[9] + IndexWeaponOnlyStat[9] + IndexWingOnlyStat[9] + IndexMedalOnlyStat[9]) / 100) + "%";
+    document.getElementById("IndexCollectionStaminaStat").innerHTML = ((IndexCostumeOnlyStat[10] + IndexWeaponOnlyStat[10] + IndexWingOnlyStat[10] + IndexMedalOnlyStat[10]) / 100) + "%";
+    document.getElementById("IndexCollectionMoodStat").innerHTML = ((IndexCostumeOnlyStat[11] + IndexWeaponOnlyStat[11] + IndexWingOnlyStat[11] + IndexMedalOnlyStat[11]) / 100) + "%";
+    document.getElementById("IndexCollectionUndeadStat").innerHTML = ((IndexCostumeOnlyStat[12] + IndexWeaponOnlyStat[12] + IndexWingOnlyStat[12] + IndexMedalOnlyStat[12]) / 100) + "%";
+    document.getElementById("IndexCollectionDemonStat").innerHTML = ((IndexCostumeOnlyStat[13] + IndexWeaponOnlyStat[13] + IndexWingOnlyStat[13] + IndexMedalOnlyStat[13]) / 100) + "%";
+    document.getElementById("IndexCollectionAnimalStat").innerHTML = ((IndexCostumeOnlyStat[14] + IndexWeaponOnlyStat[14] + IndexWingOnlyStat[14] + IndexMedalOnlyStat[14]) / 100) + "%";
 
-    document.getElementById("IndexSetEXPStat").innerHTML = IndexSetOnlyStat[0] + "%";
-    document.getElementById("IndexSetATKStat").innerHTML = IndexSetOnlyStat[1] + "%";
-    document.getElementById("IndexSetDEFStat").innerHTML = IndexSetOnlyStat[2] + "%";
-    document.getElementById("IndexSetHPStat").innerHTML = IndexSetOnlyStat[3] + "%";
-    document.getElementById("IndexSetCRITStat").innerHTML = IndexSetOnlyStat[4] + "%";
-    document.getElementById("IndexSetCriticalHitDamageStat").innerHTML = IndexSetOnlyStat[5] + "%";
-    document.getElementById("IndexSetSatietyStat").innerHTML = IndexSetOnlyStat[6] + "%";
-    document.getElementById("IndexSetChance3rdBookStat").innerHTML = IndexSetOnlyStat[7] + "%";
-    document.getElementById("IndexSetBossStat").innerHTML = IndexSetOnlyStat[8] + "%";
-    document.getElementById("IndexSetPrimateStat").innerHTML = IndexSetOnlyStat[9] + "%";
-    document.getElementById("IndexSetStaminaStat").innerHTML = IndexSetOnlyStat[10] + "%";
-    document.getElementById("IndexSetMoodStat").innerHTML = IndexSetOnlyStat[11] + "%";
-    document.getElementById("IndexSetUndeadStat").innerHTML = IndexSetOnlyStat[12] + "%";
-    document.getElementById("IndexSetDemonStat").innerHTML = IndexSetOnlyStat[13] + "%";
-    document.getElementById("IndexSetAnimalStat").innerHTML = IndexSetOnlyStat[14] + "%";
+    document.getElementById("IndexSetEXPStat").innerHTML = (IndexSetOnlyStat[0] / 100) + "%";
+    document.getElementById("IndexSetATKStat").innerHTML = (IndexSetOnlyStat[1] / 100) + "%";
+    document.getElementById("IndexSetDEFStat").innerHTML = (IndexSetOnlyStat[2] / 100) + "%";
+    document.getElementById("IndexSetHPStat").innerHTML = (IndexSetOnlyStat[3] / 100) + "%";
+    document.getElementById("IndexSetCRITStat").innerHTML = (IndexSetOnlyStat[4] / 100) + "%";
+    document.getElementById("IndexSetCriticalHitDamageStat").innerHTML = (IndexSetOnlyStat[5] / 100) + "%";
+    document.getElementById("IndexSetSatietyStat").innerHTML = (IndexSetOnlyStat[6] / 100) + "%";
+    document.getElementById("IndexSetChance3rdBookStat").innerHTML = (IndexSetOnlyStat[7] / 100) + "%";
+    document.getElementById("IndexSetBossStat").innerHTML = (IndexSetOnlyStat[8] / 100) + "%";
+    document.getElementById("IndexSetPrimateStat").innerHTML = (IndexSetOnlyStat[9] / 100) + "%";
+    document.getElementById("IndexSetStaminaStat").innerHTML = (IndexSetOnlyStat[10] / 100) + "%";
+    document.getElementById("IndexSetMoodStat").innerHTML = (IndexSetOnlyStat[11] / 100) + "%";
+    document.getElementById("IndexSetUndeadStat").innerHTML = (IndexSetOnlyStat[12] / 100) + "%";
+    document.getElementById("IndexSetDemonStat").innerHTML = (IndexSetOnlyStat[13] / 100) + "%";
+    document.getElementById("IndexSetAnimalStat").innerHTML = (IndexSetOnlyStat[14] / 100) + "%";
 
-    document.getElementById("IndexTotalEXPStat").innerHTML = (IndexCostumeOnlyStat[0] + IndexWeaponOnlyStat[0] + IndexWingOnlyStat[0] + IndexMedalOnlyStat[0] + IndexSetOnlyStat[0]) + "%";
-    document.getElementById("IndexTotalATKStat").innerHTML = (IndexCostumeOnlyStat[1] + IndexWeaponOnlyStat[1] + IndexWingOnlyStat[1] + IndexMedalOnlyStat[1] + IndexSetOnlyStat[1]) + "%";
-    document.getElementById("IndexTotalDEFStat").innerHTML = (IndexCostumeOnlyStat[2] + IndexWeaponOnlyStat[2] + IndexWingOnlyStat[2] + IndexMedalOnlyStat[2] + IndexSetOnlyStat[2]) + "%";
-    document.getElementById("IndexTotalHPStat").innerHTML = (IndexCostumeOnlyStat[3] + IndexWeaponOnlyStat[3] + IndexWingOnlyStat[3] + IndexMedalOnlyStat[3] + IndexSetOnlyStat[3]) + "%";
-    document.getElementById("IndexTotalCRITStat").innerHTML = (IndexCostumeOnlyStat[4] + IndexWeaponOnlyStat[4] + IndexWingOnlyStat[4] + IndexMedalOnlyStat[4] + IndexSetOnlyStat[4]) + "%";
-    document.getElementById("IndexTotalCriticalHitDamageStat").innerHTML = (IndexCostumeOnlyStat[5] + IndexWeaponOnlyStat[5] + IndexWingOnlyStat[5] + IndexMedalOnlyStat[5] + IndexSetOnlyStat[5]) + "%";
-    document.getElementById("IndexTotalSatietyStat").innerHTML = (IndexCostumeOnlyStat[6] + IndexWeaponOnlyStat[6] + IndexWingOnlyStat[6] + IndexMedalOnlyStat[6] + IndexSetOnlyStat[6]) + "%";
-    document.getElementById("IndexTotalChance3rdBookStat").innerHTML = (IndexCostumeOnlyStat[7] + IndexWeaponOnlyStat[7] + IndexWingOnlyStat[7] + IndexMedalOnlyStat[7] + IndexSetOnlyStat[7]) + "%";
-    document.getElementById("IndexTotalBossStat").innerHTML = (IndexCostumeOnlyStat[8] + IndexWeaponOnlyStat[8] + IndexWingOnlyStat[8] + IndexMedalOnlyStat[8] + IndexSetOnlyStat[8]) + "%";
-    document.getElementById("IndexTotalPrimateStat").innerHTML = (IndexCostumeOnlyStat[9] + IndexWeaponOnlyStat[9] + IndexWingOnlyStat[9] + IndexMedalOnlyStat[9] + IndexSetOnlyStat[9]) + "%";
-    document.getElementById("IndexTotalStaminaStat").innerHTML = (IndexCostumeOnlyStat[10] + IndexWeaponOnlyStat[10] + IndexWingOnlyStat[10] + IndexMedalOnlyStat[10] + IndexSetOnlyStat[10]) + "%";
-    document.getElementById("IndexTotalMoodStat").innerHTML = (IndexCostumeOnlyStat[11] + IndexWeaponOnlyStat[11] + IndexWingOnlyStat[11] + IndexMedalOnlyStat[11] + IndexSetOnlyStat[11]) + "%";
-    document.getElementById("IndexTotalUndeadStat").innerHTML = (IndexCostumeOnlyStat[12] + IndexWeaponOnlyStat[12] + IndexWingOnlyStat[12] + IndexMedalOnlyStat[12] + IndexSetOnlyStat[12]) + "%";
-    document.getElementById("IndexTotalDemonStat").innerHTML = (IndexCostumeOnlyStat[13] + IndexWeaponOnlyStat[13] + IndexWingOnlyStat[13] + IndexMedalOnlyStat[13] + IndexSetOnlyStat[13]) + "%";
-    document.getElementById("IndexTotalAnimalStat").innerHTML = (IndexCostumeOnlyStat[14] + IndexWeaponOnlyStat[14] + IndexWingOnlyStat[14] + IndexMedalOnlyStat[14] + IndexSetOnlyStat[14]) + "%";
+    document.getElementById("IndexTotalEXPStat").innerHTML = ((IndexCostumeOnlyStat[0] + IndexWeaponOnlyStat[0] + IndexWingOnlyStat[0] + IndexMedalOnlyStat[0] + IndexSetOnlyStat[0]) / 100) + "%";
+    document.getElementById("IndexTotalATKStat").innerHTML = ((IndexCostumeOnlyStat[1] + IndexWeaponOnlyStat[1] + IndexWingOnlyStat[1] + IndexMedalOnlyStat[1] + IndexSetOnlyStat[1]) / 100) + "%";
+    document.getElementById("IndexTotalDEFStat").innerHTML = ((IndexCostumeOnlyStat[2] + IndexWeaponOnlyStat[2] + IndexWingOnlyStat[2] + IndexMedalOnlyStat[2] + IndexSetOnlyStat[2]) / 100) + "%";
+    document.getElementById("IndexTotalHPStat").innerHTML = ((IndexCostumeOnlyStat[3] + IndexWeaponOnlyStat[3] + IndexWingOnlyStat[3] + IndexMedalOnlyStat[3] + IndexSetOnlyStat[3]) / 100) + "%";
+    document.getElementById("IndexTotalCRITStat").innerHTML = ((IndexCostumeOnlyStat[4] + IndexWeaponOnlyStat[4] + IndexWingOnlyStat[4] + IndexMedalOnlyStat[4] + IndexSetOnlyStat[4]) / 100) + "%";
+    document.getElementById("IndexTotalCriticalHitDamageStat").innerHTML = ((IndexCostumeOnlyStat[5] + IndexWeaponOnlyStat[5] + IndexWingOnlyStat[5] + IndexMedalOnlyStat[5] + IndexSetOnlyStat[5]) / 100) + "%";
+    document.getElementById("IndexTotalSatietyStat").innerHTML = ((IndexCostumeOnlyStat[6] + IndexWeaponOnlyStat[6] + IndexWingOnlyStat[6] + IndexMedalOnlyStat[6] + IndexSetOnlyStat[6]) / 100) + "%";
+    document.getElementById("IndexTotalChance3rdBookStat").innerHTML = ((IndexCostumeOnlyStat[7] + IndexWeaponOnlyStat[7] + IndexWingOnlyStat[7] + IndexMedalOnlyStat[7] + IndexSetOnlyStat[7]) / 100) + "%";
+    document.getElementById("IndexTotalBossStat").innerHTML = ((IndexCostumeOnlyStat[8] + IndexWeaponOnlyStat[8] + IndexWingOnlyStat[8] + IndexMedalOnlyStat[8] + IndexSetOnlyStat[8]) / 100) + "%";
+    document.getElementById("IndexTotalPrimateStat").innerHTML = ((IndexCostumeOnlyStat[9] + IndexWeaponOnlyStat[9] + IndexWingOnlyStat[9] + IndexMedalOnlyStat[9] + IndexSetOnlyStat[9]) / 100) + "%";
+    document.getElementById("IndexTotalStaminaStat").innerHTML = ((IndexCostumeOnlyStat[10] + IndexWeaponOnlyStat[10] + IndexWingOnlyStat[10] + IndexMedalOnlyStat[10] + IndexSetOnlyStat[10]) / 100) + "%";
+    document.getElementById("IndexTotalMoodStat").innerHTML = ((IndexCostumeOnlyStat[11] + IndexWeaponOnlyStat[11] + IndexWingOnlyStat[11] + IndexMedalOnlyStat[11] + IndexSetOnlyStat[11]) / 100) + "%";
+    document.getElementById("IndexTotalUndeadStat").innerHTML = ((IndexCostumeOnlyStat[12] + IndexWeaponOnlyStat[12] + IndexWingOnlyStat[12] + IndexMedalOnlyStat[12] + IndexSetOnlyStat[12]) / 100) + "%";
+    document.getElementById("IndexTotalDemonStat").innerHTML = ((IndexCostumeOnlyStat[13] + IndexWeaponOnlyStat[13] + IndexWingOnlyStat[13] + IndexMedalOnlyStat[13] + IndexSetOnlyStat[13]) / 100) + "%";
+    document.getElementById("IndexTotalAnimalStat").innerHTML = ((IndexCostumeOnlyStat[14] + IndexWeaponOnlyStat[14] + IndexWingOnlyStat[14] + IndexMedalOnlyStat[14] + IndexSetOnlyStat[14]) / 100) + "%";
 }
 function StatManagement3() {
-    IndexCostumeOnlyStat[0] = (5 * IndexCostumeDataText[0]) + (5 * IndexCostumeDataText[1]) + (5 * IndexCostumeDataText[2]);
-    IndexCostumeOnlyStat[1] = (0.6 * IndexCostumeDataText[3]);
-    IndexCostumeOnlyStat[1] += (0.6 * IndexCostumeDataText[4]) + (0.3 * IndexCostumeDataText[5]) + (0.3 * IndexCostumeDataText[6]) + (0.3 * IndexCostumeDataText[7]);
-    IndexCostumeOnlyStat[1] += (0.3 * IndexCostumeDataText[8]) + (0.3 * IndexCostumeDataText[9]) + (0.3 * IndexCostumeDataText[10]) + (0.3 * IndexCostumeDataText[11]);
-    IndexCostumeOnlyStat[1] += (0.6 * IndexCostumeDataText[12]) + (0.6 * IndexCostumeDataText[13]) + (0.6 * IndexCostumeDataText[14]) + (0.6 * IndexCostumeDataText[15]);
-    IndexCostumeOnlyStat[1] += (0.6 * IndexCostumeDataText[16]) + (0.6 * IndexCostumeDataText[17]) + (0.6 * IndexCostumeDataText[18]) + (0.6 * IndexCostumeDataText[19]);
-    IndexCostumeOnlyStat[1] += (0.3 * IndexCostumeDataText[20]) + (0.6 * IndexCostumeDataText[21]) + (0.6 * IndexCostumeDataText[22]) + (0.3 * IndexCostumeDataText[23]);
-    IndexCostumeOnlyStat[2] = (1 * IndexCostumeDataText[24]) + (1 * IndexCostumeDataText[25]) + (1 * IndexCostumeDataText[26]) + (1 * IndexCostumeDataText[27]);
-    IndexCostumeOnlyStat[2] += (1 * IndexCostumeDataText[28]) + (2 * IndexCostumeDataText[29]);
-    IndexCostumeOnlyStat[3] = (0.8 * IndexCostumeDataText[30]) + (0.8 * IndexCostumeDataText[31]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[32]) + (0.8 * IndexCostumeDataText[33]) + (0.8 * IndexCostumeDataText[34]) + (0.8 * IndexCostumeDataText[35]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[36]) + (0.8 * IndexCostumeDataText[37]) + (0.8 * IndexCostumeDataText[38]) + (0.8 * IndexCostumeDataText[39]);
-    IndexCostumeOnlyStat[3] += (1.6 * IndexCostumeDataText[40]) + (0.8 * IndexCostumeDataText[41]) + (0.8 * IndexCostumeDataText[42]) + (0.8 * IndexCostumeDataText[43]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[44]) + (0.8 * IndexCostumeDataText[45]) + (0.8 * IndexCostumeDataText[46]) + (0.8 * IndexCostumeDataText[47]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[48]) + (1.6 * IndexCostumeDataText[49]) + (0.8 * IndexCostumeDataText[50]) + (0.8 * IndexCostumeDataText[51]);
-    IndexCostumeOnlyStat[3] += (1.6 * IndexCostumeDataText[52]) + (0.8 * IndexCostumeDataText[53]) + (0.8 * IndexCostumeDataText[54]) + (0.8 * IndexCostumeDataText[55]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[56]) + (0.8 * IndexCostumeDataText[57]) + (1.6 * IndexCostumeDataText[58]) + (0.8 * IndexCostumeDataText[59]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[60]) + (0.8 * IndexCostumeDataText[61]) + (0.8 * IndexCostumeDataText[62]) + (1.6 * IndexCostumeDataText[63]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[64]) + (0.8 * IndexCostumeDataText[65]) + (1.6 * IndexCostumeDataText[66]) + (0.8 * IndexCostumeDataText[67]);
-    IndexCostumeOnlyStat[3] += (0.8 * IndexCostumeDataText[68]) + (0.8 * IndexCostumeDataText[69]) + (0.8 * IndexCostumeDataText[70]);
-    IndexCostumeOnlyStat[6] = (10 * IndexCostumeDataText[71]);
-    IndexCostumeOnlyStat[7] = (20 * IndexCostumeDataText[72]);
-    IndexCostumeOnlyStat[8] = (2 * IndexCostumeDataText[73]) + (2 * IndexCostumeDataText[74]);
+    IndexCostumeOnlyStat[0] = (500 * IndexCostumeDataText[0]) + (500 * IndexCostumeDataText[1]) + (500 * IndexCostumeDataText[2]);
+    IndexCostumeOnlyStat[1] = (60 * IndexCostumeDataText[3]);
+    IndexCostumeOnlyStat[1] += (60 * IndexCostumeDataText[4]) + (30 * IndexCostumeDataText[5]) + (30 * IndexCostumeDataText[6]) + (30 * IndexCostumeDataText[7]);
+    IndexCostumeOnlyStat[1] += (30 * IndexCostumeDataText[8]) + (30 * IndexCostumeDataText[9]) + (30 * IndexCostumeDataText[10]) + (30 * IndexCostumeDataText[11]);
+    IndexCostumeOnlyStat[1] += (60 * IndexCostumeDataText[12]) + (60 * IndexCostumeDataText[13]) + (60 * IndexCostumeDataText[14]) + (60 * IndexCostumeDataText[15]);
+    IndexCostumeOnlyStat[1] += (60 * IndexCostumeDataText[16]) + (60 * IndexCostumeDataText[17]) + (60 * IndexCostumeDataText[18]) + (60 * IndexCostumeDataText[19]);
+    IndexCostumeOnlyStat[1] += (30 * IndexCostumeDataText[20]) + (60 * IndexCostumeDataText[21]) + (60 * IndexCostumeDataText[22]) + (30 * IndexCostumeDataText[23]);
+    IndexCostumeOnlyStat[2] = (100 * IndexCostumeDataText[24]) + (100 * IndexCostumeDataText[25]) + (100 * IndexCostumeDataText[26]) + (100 * IndexCostumeDataText[27]);
+    IndexCostumeOnlyStat[2] += (100 * IndexCostumeDataText[28]) + (200 * IndexCostumeDataText[29]);
+    IndexCostumeOnlyStat[3] = (80 * IndexCostumeDataText[30]) + (80 * IndexCostumeDataText[31]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[32]) + (80 * IndexCostumeDataText[33]) + (80 * IndexCostumeDataText[34]) + (80 * IndexCostumeDataText[35]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[36]) + (80 * IndexCostumeDataText[37]) + (80 * IndexCostumeDataText[38]) + (80 * IndexCostumeDataText[39]);
+    IndexCostumeOnlyStat[3] += (160 * IndexCostumeDataText[40]) + (80 * IndexCostumeDataText[41]) + (80 * IndexCostumeDataText[42]) + (80 * IndexCostumeDataText[43]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[44]) + (80 * IndexCostumeDataText[45]) + (80 * IndexCostumeDataText[46]) + (80 * IndexCostumeDataText[47]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[48]) + (160 * IndexCostumeDataText[49]) + (80 * IndexCostumeDataText[50]) + (80 * IndexCostumeDataText[51]);
+    IndexCostumeOnlyStat[3] += (160 * IndexCostumeDataText[52]) + (80 * IndexCostumeDataText[53]) + (80 * IndexCostumeDataText[54]) + (80 * IndexCostumeDataText[55]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[56]) + (80 * IndexCostumeDataText[57]) + (160 * IndexCostumeDataText[58]) + (80 * IndexCostumeDataText[59]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[60]) + (80 * IndexCostumeDataText[61]) + (80 * IndexCostumeDataText[62]) + (160 * IndexCostumeDataText[63]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[64]) + (80 * IndexCostumeDataText[65]) + (160 * IndexCostumeDataText[66]) + (80 * IndexCostumeDataText[67]);
+    IndexCostumeOnlyStat[3] += (80 * IndexCostumeDataText[68]) + (80 * IndexCostumeDataText[69]) + (80 * IndexCostumeDataText[70]);
+    IndexCostumeOnlyStat[6] = (1000 * IndexCostumeDataText[71]);
+    IndexCostumeOnlyStat[7] = (2000 * IndexCostumeDataText[72]);
+    IndexCostumeOnlyStat[8] = (200 * IndexCostumeDataText[73]) + (200 * IndexCostumeDataText[74]);
 
-    IndexWeaponOnlyStat[1] = (0.6 * IndexWeaponDataText[0]) + (0.6 * IndexWeaponDataText[1]) + (0.6 * IndexWeaponDataText[2]) + (0.6 * IndexWeaponDataText[3]);
-    IndexWeaponOnlyStat[1] += (0.6 * IndexWeaponDataText[4]) + (0.6 * IndexWeaponDataText[5]) + (0.6 * IndexWeaponDataText[6]) + (0.6 * IndexWeaponDataText[7]);
-    IndexWeaponOnlyStat[1] += (0.6 * IndexWeaponDataText[8]) + (0.6 * IndexWeaponDataText[9]) + (0.6 * IndexWeaponDataText[10]) + (0.6 * IndexWeaponDataText[11]);
-    IndexWeaponOnlyStat[1] += (0.6 * IndexWeaponDataText[12]) + (0.6 * IndexWeaponDataText[13]) + (0.6 * IndexWeaponDataText[14]) + (0.6 * IndexWeaponDataText[15]);
-    IndexWeaponOnlyStat[1] += (0.6 * IndexWeaponDataText[16]) + (0.6 * IndexWeaponDataText[17]) + (0.6 * IndexWeaponDataText[18]) + (0.6 * IndexWeaponDataText[19]);
-    IndexWeaponOnlyStat[1] += (0.6 * IndexWeaponDataText[20]) + (0.6 * IndexWeaponDataText[21]) + (0.6 * IndexWeaponDataText[22]) + (0.6 * IndexWeaponDataText[23]);
-    IndexWeaponOnlyStat[2] = (3 * IndexWeaponDataText[24]) + (3 * IndexWeaponDataText[25]) + (3 * IndexWeaponDataText[26]) + (3 * IndexWeaponDataText[27]);
-    IndexWeaponOnlyStat[3] = (2 * IndexWeaponDataText[28]) + (2 * IndexWeaponDataText[29]) + (2 * IndexWeaponDataText[30]) + (2 * IndexWeaponDataText[31]);
-    IndexWeaponOnlyStat[3] += (2 * IndexWeaponDataText[32]) + (2 * IndexWeaponDataText[33]) + (2 * IndexWeaponDataText[34]) + (2 * IndexWeaponDataText[35]);
-    IndexWeaponOnlyStat[3] += (2 * IndexWeaponDataText[36]) + (2 * IndexWeaponDataText[37]) + (2 * IndexWeaponDataText[38]) + (2 * IndexWeaponDataText[39]);
-    IndexWeaponOnlyStat[4] = (1 * IndexWeaponDataText[40]) + (1 * IndexWeaponDataText[41]) + (1 * IndexWeaponDataText[42]) + (1 * IndexWeaponDataText[43]);
-    IndexWeaponOnlyStat[5] = (2 * IndexWeaponDataText[44]) + (2 * IndexWeaponDataText[45]) + (2 * IndexWeaponDataText[46]) + (2 * IndexWeaponDataText[47]);
-    IndexWeaponOnlyStat[5] += (3 * IndexWeaponDataText[48]) + (3 * IndexWeaponDataText[49]) + (3 * IndexWeaponDataText[50]) + (3 * IndexWeaponDataText[51]);
-    IndexWeaponOnlyStat[8] = (1 * IndexWeaponDataText[52]) + (1 * IndexWeaponDataText[53]) + (1 * IndexWeaponDataText[54]) + (1 * IndexWeaponDataText[55]);
+    IndexWeaponOnlyStat[1] = (60 * IndexWeaponDataText[0]) + (60 * IndexWeaponDataText[1]) + (60 * IndexWeaponDataText[2]) + (60 * IndexWeaponDataText[3]);
+    IndexWeaponOnlyStat[1] += (60 * IndexWeaponDataText[4]) + (60 * IndexWeaponDataText[5]) + (60 * IndexWeaponDataText[6]) + (60 * IndexWeaponDataText[7]);
+    IndexWeaponOnlyStat[1] += (60 * IndexWeaponDataText[8]) + (60 * IndexWeaponDataText[9]) + (60 * IndexWeaponDataText[10]) + (60 * IndexWeaponDataText[11]);
+    IndexWeaponOnlyStat[1] += (60 * IndexWeaponDataText[12]) + (60 * IndexWeaponDataText[13]) + (60 * IndexWeaponDataText[14]) + (60 * IndexWeaponDataText[15]);
+    IndexWeaponOnlyStat[1] += (60 * IndexWeaponDataText[16]) + (60 * IndexWeaponDataText[17]) + (60 * IndexWeaponDataText[18]) + (60 * IndexWeaponDataText[19]);
+    IndexWeaponOnlyStat[1] += (60 * IndexWeaponDataText[20]) + (60 * IndexWeaponDataText[21]) + (60 * IndexWeaponDataText[22]) + (60 * IndexWeaponDataText[23]);
+    IndexWeaponOnlyStat[2] = (300 * IndexWeaponDataText[24]) + (300 * IndexWeaponDataText[25]) + (300 * IndexWeaponDataText[26]) + (300 * IndexWeaponDataText[27]);
+    IndexWeaponOnlyStat[3] = (200 * IndexWeaponDataText[28]) + (200 * IndexWeaponDataText[29]) + (200 * IndexWeaponDataText[30]) + (200 * IndexWeaponDataText[31]);
+    IndexWeaponOnlyStat[3] += (200 * IndexWeaponDataText[32]) + (200 * IndexWeaponDataText[33]) + (200 * IndexWeaponDataText[34]) + (200 * IndexWeaponDataText[35]);
+    IndexWeaponOnlyStat[3] += (200 * IndexWeaponDataText[36]) + (200 * IndexWeaponDataText[37]) + (200 * IndexWeaponDataText[38]) + (200 * IndexWeaponDataText[39]);
+    IndexWeaponOnlyStat[4] = (100 * IndexWeaponDataText[40]) + (100 * IndexWeaponDataText[41]) + (100 * IndexWeaponDataText[42]) + (100 * IndexWeaponDataText[43]);
+    IndexWeaponOnlyStat[5] = (200 * IndexWeaponDataText[44]) + (200 * IndexWeaponDataText[45]) + (200 * IndexWeaponDataText[46]) + (200 * IndexWeaponDataText[47]);
+    IndexWeaponOnlyStat[5] += (300 * IndexWeaponDataText[48]) + (300 * IndexWeaponDataText[49]) + (300 * IndexWeaponDataText[50]) + (300 * IndexWeaponDataText[51]);
+    IndexWeaponOnlyStat[8] = (100 * IndexWeaponDataText[52]) + (100 * IndexWeaponDataText[53]) + (100 * IndexWeaponDataText[54]) + (100 * IndexWeaponDataText[55]);
 
-    IndexWingOnlyStat[1] = (3 * IndexWingDataText[0]) + (1.5 * IndexWingDataText[1]) + (3 * IndexWingDataText[2]) + (3 * IndexWingDataText[3]);
-    IndexWingOnlyStat[2] = (5 * IndexWingDataText[4]);
-    IndexWingOnlyStat[3] = (5 * IndexWingDataText[5]) + (2.5 * IndexWingDataText[6]) + (5 * IndexWingDataText[7]);
-    IndexWingOnlyStat[4] = (2 * IndexWingDataText[8]);
-    IndexWingOnlyStat[5] = (5 * IndexWingDataText[9]) + (5 * IndexWingDataText[10]) + (5 * IndexWingDataText[11]);
-    IndexWingOnlyStat[8] = (5 * IndexWingDataText[12]) + (5 * IndexWingDataText[13]);
-    IndexWingOnlyStat[9] = (5 * IndexWingDataText[14]) + (5 * IndexWingDataText[15]);
+    IndexWingOnlyStat[1] = (300 * IndexWingDataText[0]) + (150 * IndexWingDataText[1]) + (300 * IndexWingDataText[2]) + (300 * IndexWingDataText[3]);
+    IndexWingOnlyStat[2] = (500 * IndexWingDataText[4]);
+    IndexWingOnlyStat[3] = (500 * IndexWingDataText[5]) + (250 * IndexWingDataText[6]) + (500 * IndexWingDataText[7]);
+    IndexWingOnlyStat[4] = (200 * IndexWingDataText[8]);
+    IndexWingOnlyStat[5] = (500 * IndexWingDataText[9]) + (500 * IndexWingDataText[10]) + (500 * IndexWingDataText[11]);
+    IndexWingOnlyStat[8] = (500 * IndexWingDataText[12]) + (500 * IndexWingDataText[13]);
+    IndexWingOnlyStat[9] = (500 * IndexWingDataText[14]) + (500 * IndexWingDataText[15]);
 
-    IndexMedalOnlyStat[1] = (3 * IndexMedalDataText[0]) + (3 * IndexMedalDataText[1]);
-    IndexMedalOnlyStat[3] = (5 * IndexMedalDataText[2]) + (5 * IndexMedalDataText[3]);
-    IndexMedalOnlyStat[4] = (1 * IndexMedalDataText[4]);
-    IndexMedalOnlyStat[5] = (2.5 * IndexMedalDataText[5]) + (5 * IndexMedalDataText[6]);
-    IndexMedalOnlyStat[6] = (10 * IndexMedalDataText[7]);
-    IndexMedalOnlyStat[10] = (10 * IndexMedalDataText[8]);
-    IndexMedalOnlyStat[11] = (10 * IndexMedalDataText[9]);
-    IndexMedalOnlyStat[8] = (5 * IndexMedalDataText[10]);
+    IndexMedalOnlyStat[1] = (300 * IndexMedalDataText[0]) + (300 * IndexMedalDataText[1]);
+    IndexMedalOnlyStat[3] = (500 * IndexMedalDataText[2]) + (500 * IndexMedalDataText[3]);
+    IndexMedalOnlyStat[4] = (100 * IndexMedalDataText[4]);
+    IndexMedalOnlyStat[5] = (250 * IndexMedalDataText[5]) + (500 * IndexMedalDataText[6]);
+    IndexMedalOnlyStat[6] = (1000 * IndexMedalDataText[7]);
+    IndexMedalOnlyStat[10] = (1000 * IndexMedalDataText[8]);
+    IndexMedalOnlyStat[11] = (1000 * IndexMedalDataText[9]);
+    IndexMedalOnlyStat[8] = (500 * IndexMedalDataText[10]);
 
     let WeaponCollector_Berseker = 0;
     if (IndexWeaponDataText[24] == 1 && IndexWeaponDataText[44] == 1 && IndexWeaponDataText[28] == 1 && IndexWeaponDataText[0] == 1 && IndexWeaponDataText[40] == 1) {
@@ -556,20 +556,20 @@ function StatManagement3() {
     }
 
     IndexSetOnlyStat[0] = 0;
-    IndexSetOnlyStat[1] = (3 * SpringSet) + (2 * WeaponCollector_Berseker) + (1 * ToolSet) + (1 * OutlawSet) + (5 * WingCollector) + (3 * GuildRaidConquerorSet_2) + (3 * GrandmasterSet) + (5 * FallenAngelSet) + (5 * WingCollector_2) + (3 * DragonSlayerSet) + (2 * WeaponCollector_Berseker_2) + (3 * GoldenGuardianAngelSet) + (2 * FoodieSet) + (3 * LovelyWeaponSet) + (1 * SnackWeaponSet);
-    IndexSetOnlyStat[2] = (8 * _4SeasonsSet) + (8 * WeaponCollector_Paladin) + (5 * EveningPartySet) + (5 * UniformSet) + (5 * SchoolUniformSet) + (8 * WinterPartySet) + (5 * SchoolUniformSet_2) + (8 * WeaponCollector_Paladin_2);
-    IndexSetOnlyStat[3] = (8 * GuardianSet) + (5 * WaterGamesSet) + (5 * TeaPartySet) + (5 * ChefandIngredientsSet) + (5 * AutumnBalladSet) + (5 * SweetDreamlandSet) + (5 * FairylandSet) + (5 * BeesJourneySet) + (5 * WeaponCollector_Ranger_2);
-    IndexSetOnlyStat[4] = (3 * DarkWitchSet) + (2 * ForceWeaponSet) + (2 * WeaponCollector_Ranger) + (1 * ChildhoodProtectorSet) + (2 * ChildhoodProtectorSet_2);
-    IndexSetOnlyStat[5] = (7 * WinterFairySet) + (7 * GuildSet) + (5 * WeaponCollector_Sorcerer) + (3 * EvilHunterBandSet) + (7 * GrandmasterSet_2) + (5 * HorrorSet_2) + (10 * GuildRaidConquerorSet_3) + (7 * DreamyPartySet) + (5 * WeaponCollector_Sorcerer_2);
+    IndexSetOnlyStat[1] = (300 * SpringSet) + (200 * WeaponCollector_Berseker) + (100 * ToolSet) + (100 * OutlawSet) + (500 * WingCollector) + (300 * GuildRaidConquerorSet_2) + (300 * GrandmasterSet) + (500 * FallenAngelSet) + (500 * WingCollector_2) + (300 * DragonSlayerSet) + (200 * WeaponCollector_Berseker_2) + (300 * GoldenGuardianAngelSet) + (200 * FoodieSet) + (300 * LovelyWeaponSet) + (100 * SnackWeaponSet);
+    IndexSetOnlyStat[2] = (800 * _4SeasonsSet) + (800 * WeaponCollector_Paladin) + (500 * EveningPartySet) + (500 * UniformSet) + (500 * SchoolUniformSet) + (800 * WinterPartySet) + (500 * SchoolUniformSet_2) + (800 * WeaponCollector_Paladin_2);
+    IndexSetOnlyStat[3] = (800 * GuardianSet) + (500 * WaterGamesSet) + (500 * TeaPartySet) + (500 * ChefandIngredientsSet) + (500 * AutumnBalladSet) + (500 * SweetDreamlandSet) + (500 * FairylandSet) + (500 * BeesJourneySet) + (500 * WeaponCollector_Ranger_2);
+    IndexSetOnlyStat[4] = (300 * DarkWitchSet) + (200 * ForceWeaponSet) + (200 * WeaponCollector_Ranger) + (100 * ChildhoodProtectorSet) + (200 * ChildhoodProtectorSet_2);
+    IndexSetOnlyStat[5] = (700 * WinterFairySet) + (700 * GuildSet) + (500 * WeaponCollector_Sorcerer) + (300 * EvilHunterBandSet) + (700 * GrandmasterSet_2) + (500 * HorrorSet_2) + (1000 * GuildRaidConquerorSet_3) + (700 * DreamyPartySet) + (500 * WeaponCollector_Sorcerer_2);
     IndexSetOnlyStat[6] = 0;
     IndexSetOnlyStat[7] = 0;
-    IndexSetOnlyStat[8] = (5 * ArchangelSet) + (5 * GreatDevilSet) + (5 * WinterLordSet) + (5 * PrinceofDarknessGhostSet) + (5 * GuildRaidConquerorSet);
-    IndexSetOnlyStat[9] = (5 * WarmongerSet);
+    IndexSetOnlyStat[8] = (500 * ArchangelSet) + (500 * GreatDevilSet) + (500 * WinterLordSet) + (500 * PrinceofDarknessGhostSet) + (500 * GuildRaidConquerorSet);
+    IndexSetOnlyStat[9] = (500 * WarmongerSet);
     IndexSetOnlyStat[10] = 0;
     IndexSetOnlyStat[11] = 0;
-    IndexSetOnlyStat[12] = (5 * HorrorSet);
-    IndexSetOnlyStat[13] = (5 * FrontYardConquestSet);
-    IndexSetOnlyStat[14] = (5 * AnimalSet);
+    IndexSetOnlyStat[12] = (500 * HorrorSet);
+    IndexSetOnlyStat[13] = (500 * FrontYardConquestSet);
+    IndexSetOnlyStat[14] = (500 * AnimalSet);
 }
 //--------------------------------------------------------------------------------------------------------------------Save Window Local Storage
 function SaveIndexLocally() {
