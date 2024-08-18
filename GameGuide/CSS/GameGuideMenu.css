@@ -1,8 +1,7 @@
-body {
+﻿body {
     background-color: #cfcfcf;
     font-size: 100%;
-    overflow-x: auto;
-    overflow-y:auto;
+    overflow-x:hidden;
 }
 
 .title {
@@ -11,8 +10,8 @@ body {
 }
 
 .intro {
-    width: calc(100vw-1px);
-    height: calc(100%-170px);
+    width: calc(100vw - 1px);
+    height: calc(100% - 170px);
     position: absolute;
     left: 0px;
     right: 0px;
@@ -22,28 +21,25 @@ body {
 }
 
 .content {
-    width: calc(100vw-1px);
+    width: calc(100vw - 1px);
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-left: 3px solid black;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-column-gap: 50px;
-    grid-row-gap: 50px;
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
+    grid-template:50px;
+    padding:50px;
 }
 
 .Button {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 20vw auto;
+    grid-template-rows: 15vw auto;
     border: 3px solid black;
     background-color: white;
     top: 0px;
     left: 0px;
-    width: 20vw;
+    width: 15vw;
     transition-duration: 0.4s;
     overflow-x: hidden;
     padding: 0px;
@@ -55,8 +51,8 @@ body {
     }
 
 .ButtonImage {
-    width: 20vw;
-    height: 20vw;
+    width: 15vw;
+    height: 15vw;
     padding: 0px;
     top: 0px;
 }
@@ -80,9 +76,10 @@ body {
     overflow-y: hidden;
     text-align: center;
 }
+
 .about {
     background-color: #cfcfcf;
-    width: calc(100vw-1px);
+    width: calc(100vw - 1px);
     height: 100px;
     position: fixed;
     z-index: 2;
@@ -112,4 +109,3 @@ body {
     width: 8%;
     font-size: 1.3em;
 }
-

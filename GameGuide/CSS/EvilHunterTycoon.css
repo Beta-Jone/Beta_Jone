@@ -30,6 +30,7 @@
     border-left: 3px solid black;
     border-right: 3px solid black;
 }
+
 .content {
     width: 100%;
     position: absolute;
@@ -56,7 +57,7 @@
 
 .about {
     background-color: #cfcfcf;
-    width: calc(100vw-1px);
+    width: calc(100vw - 1px);
     height: 100px;
     position: fixed;
     z-index: 2;
