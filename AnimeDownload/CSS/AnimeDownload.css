@@ -20,14 +20,17 @@
     text-align: center;
 }
 
+.leftbanner_content_rightbanner {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 160px auto 160px;
+}
+
 .content {
     border-top: 3px solid black;
     border-left: 3px solid black;
     border-right: 3px solid black;
-    width: calc(100vw-1px);
-    position: absolute;
-    left: 0px;
-    right: 0px;
     text-align: left;
     padding-left: 0px;
     font-size: 50px;
