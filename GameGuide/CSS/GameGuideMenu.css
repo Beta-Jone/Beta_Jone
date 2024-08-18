@@ -1,6 +1,7 @@
 ﻿body {
     background-color: #cfcfcf;
     font-size: 100%;
+    overflow-x: hidden;
 }
 
 .title {
@@ -67,6 +68,20 @@
     overflow-wrap: anywhere;
 }
 
+.backtotop {
+    background-color: #cfcfcf;
+    position: fixed;
+    right: 0%;
+    bottom: 100px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    cursor: pointer;
+    border: 3px solid black;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+}
 .about {
     background-color: #cfcfcf;
     width: calc(100vw-1px);
