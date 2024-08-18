@@ -4,6 +4,40 @@ function OnLoad() {
     SetIndex();
     SetPageData();
 }
+//--------------------------------------------------------------------------------------------------------------------Nevigation
+function NavigationBar(let) {
+    if (let == "Open") {
+        document.getElementById("NavOn").style.display = "block ";
+        document.getElementById("NavOff").style.display = "none ";
+    }
+    if (let == "Close") {
+        document.getElementById("NavOn").style.display = "none ";
+        document.getElementById("NavOff").style.display = "block ";
+    }
+}
+function NavigationManagement(let) {
+    if (let == "Index") {
+        if (document.getElementById("Index1").style.display == "block") {
+            document.getElementById("Index1").style.display = "none";
+            document.getElementById("Index2").innerHTML = "=>";
+        }
+        else if (document.getElementById("Index1").style.display == "none") {
+            document.getElementById("Index1").style.display = "block";
+            document.getElementById("Index2").innerHTML = "<=";
+        }
+    }
+    if (let == "Other") {
+        if (document.getElementById("Other1").style.display == "block") {
+            document.getElementById("Other1").style.display = "none";
+            document.getElementById("Other2").innerHTML = "=>";
+        }
+        else if (document.getElementById("Other1").style.display == "none") {
+            document.getElementById("Other1").style.display = "block";
+            document.getElementById("Other2").innerHTML = "<=";
+        }
+    }
+}
+//--------------------------------------------------------------------------------------------------------------------Nevigation
 function CheckAndUpdateData() {
     //function for updating data for new data that exceed the comment below
     //Index_Costume_75

@@ -2,59 +2,95 @@
     background-color: #cfcfcf;
     font-size: 100%;
     overflow-x: hidden;
+    padding:0px;
 }
 
 .title {
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
 }
 
 .mediumtitle {
-    font-size: 65px;
+    font-size: 55px;
     text-align: center;
 }
 
 .smalltitle {
-    font-size: 50px;
+    font-size: 45px;
     text-align: center;
 }
+a:link {
+    cursor: pointer;
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+}
 
+a:visited {
+    color: purple;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
 .intro {
     position: absolute;
-    left: 20vw;
+    width: calc(100% - 6px);
+    left: 0px;
     right: 0px;
     top: 0px;
+    padding:0px;
     font-size: 40px;
     text-align: center;
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    border-right: 3px solid black;
 }
 
 .content {
-    width: 100%;
     position: absolute;
+    width: 100%;
     left: 0px;
     right: 0px;
+    padding:0px;
     text-align: center;
-    padding-left: 0px;
     font-size: 50px;
-    border-right: 3px solid black;
 }
 
-.navbar {
+.navbarOn {
     text-align: left;
     position: fixed;
-    top: 0px;
-    width: 20vw;
+    width: 30vw;
     left: 0px;
     height: 100%;
     border: 3px solid black;
     overflow-x: hidden;
     overflow-y: auto;
     overflow-wrap: anywhere;
+    top: 0px;
+    z-index: 2;
+    background-color: #cfcfcf;
+    padding:10px;
 }
-
+.navbarOff {
+    text-align: center;
+    position: fixed;
+    top: 10px;
+    width: 100px;
+    left: 10px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    z-index: 2;
+}
+.borderwhole {
+    position: fixed;
+    width:calc(100% - 6px);
+    height:100%;
+    left:0px;
+    top:0px;
+    border: 3px solid black;
+}
 .about {
     background-color: #cfcfcf;
     width: calc(100vw - 1px);
@@ -76,7 +112,7 @@
     width: 85%;
     height: 80px;
     padding-top: 1vw;
-    font-size: 30px;
+    font-size: 3em;
 }
 
 .donateme {
@@ -85,9 +121,8 @@
     left: 90vw;
     right: 2vw;
     width: 8%;
-    font-size: 15px;
+    font-size: 1.3em;
 }
-
 
 .gameitem {
     width: 300px;
