@@ -1,7 +1,8 @@
-﻿body {
+body {
     background-color: #cfcfcf;
     font-size: 100%;
-    overflow-x: hidden;
+    overflow-x: auto;
+    overflow-y:auto;
 }
 
 .title {
@@ -21,16 +22,17 @@
 }
 
 .content {
+    width: calc(100vw-1px);
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-left: 3px solid black;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-column-gap: 3vw;
-    grid-row-gap: 3vw;
-    padding-top: 3vw;
-    padding-left: 3vw;
-    padding-right: 2vw;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .Button {
