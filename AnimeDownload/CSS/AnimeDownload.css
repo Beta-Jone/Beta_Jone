@@ -10,8 +10,8 @@
 }
 
 .intro {
-    width: calc(100vw-1px);
-    height: calc(100%-170px);
+    width: calc(100vw - 1px);
+    height: calc(100% - 170px);
     position: absolute;
     left: 0px;
     right: 0px;
@@ -22,7 +22,7 @@
 
 .leftbanner_content_rightbanner {
     width: 100%;
-    height: 100%;
+    height: auto;
     display: grid;
     grid-template-columns: 160px auto 160px;
 }
@@ -74,7 +74,7 @@
 
 .about {
     background-color: #cfcfcf;
-    width: calc(100vw-1px);
+    width: calc(100vw - 1px);
     height: 100px;
     position: fixed;
     z-index: 2;
