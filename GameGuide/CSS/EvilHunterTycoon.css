@@ -75,7 +75,7 @@
     width: 85%;
     height: 80px;
     padding-top: 1vw;
-    font-size: 3em;
+    font-size: 30px;
 }
 
 .donateme {
@@ -84,8 +84,9 @@
     left: 90vw;
     right: 2vw;
     width: 8%;
-    font-size: 1.3em;
+    font-size: 15px;
 }
+
 
 .gameitem {
     width: 300px;
