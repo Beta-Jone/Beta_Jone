@@ -1,4 +1,4 @@
-﻿.body {
+﻿body {
     background-color: #cfcfcf;
     font-size: 100%;
     overflow-x: hidden;
@@ -21,10 +21,6 @@
 }
 
 .content {
-    left: 1vw;
-    right: 1vw;
-    width: calc(100%-2vw);
-    height: calc(100%-110px);
     border-top: 3px solid black;
     border-right: 3px solid black;
     border-left: 3px solid black;
@@ -103,7 +99,7 @@
     width: 85%;
     height: 80px;
     padding-top: 1vw;
-    font-size: 30px;
+    font-size: 3em;
 }
 
 .donateme {
@@ -112,5 +108,6 @@
     left: 90vw;
     right: 2vw;
     width: 8%;
-    font-size: 15px;
+    font-size: 1.3em;
 }
+
