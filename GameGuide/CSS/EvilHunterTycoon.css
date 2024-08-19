@@ -203,3 +203,69 @@ a:hover {
         display: none;
     }
 }
+.Hunter_Characteristic {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: 100%;
+    width: 80vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Hunter_Characteristic1 {
+    display: grid;
+    align-content: center;
+    text-align: left;
+    grid-template-columns: 30% 70%;
+    width: 100%;
+}
+.Hunter_Characteristic2 {
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    overflow-wrap: anywhere;
+}
+.Hunter_Tier_Stat {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 100%;
+    width: 80vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.Hunter_Tier_Stat1 {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: 40% 20% 20% 20%;
+    width: 100%;
+}
+.Hunter_Tier_Stat2 {
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    overflow-wrap: anywhere;
+}
+.Hunter_Stat_Level {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 100%;
+    width: 80vw;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.Hunter_Stat_Level1 {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: 40% 20% 20% 20%;
+    width: 100%;
+}
+
+.Hunter_Stat_Level2 {
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    overflow-wrap: anywhere;
+}
