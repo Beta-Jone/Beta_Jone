@@ -7,7 +7,7 @@
     <link rel="icon" type="image/x-icon" href="../../GameGuide/Data/EvilHunterTycoon/Website Photo.jpg" />
     <meta charset="utf-8" />
     <script type="text/javascript" src="../../GameGuide/JS/EvilHunterTycoon.js"></script>
-    <!--Google AdSense
+    <!--Google AdSense-->
     <meta name="google-adsense-account" content="ca-pub-7398602224326164">
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7398602224326164"
             crossorigin="anonymous"></script>
@@ -16,12 +16,61 @@
 <body onload="OnLoad()">
     <div class="borderwhole"></div>
     <div class="intro">
+        <div class="navbarOff" id="NavOff" style="display:block">
+            <button style="border: none;background:none; padding: 0; " onclick="NavigationBar('Open')">
+                <img style="width: 100px; height: 100px" src="../../GameGuide/Data/EvilHunterTycoon/Navigation Bar.png" />
+            </button>
+        </div>
+        <div class="navbarOn" id="NavOn" style="display:none">
+            <button style="border: none; background: none; padding: 0px; width: 100px; top: 7px; left: calc(30vw - 105px); position: absolute" onclick="NavigationBar('Close')">
+                <img style="width: 100px; height: 100px" src="../../GameGuide/Data/EvilHunterTycoon/Navigation Bar.png" />
+            </button>
+            <div>
+                <a style="cursor:pointer" onclick="document.location ='../../GameGuide/Page/GameGuideMenu.html'"><font style="color:blue;font-size:80px">Go To Home</font></a>
+                <br />
+                <a href="#Hunter"><font class="mediumtitle">Hunter</font></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="javascript:void(0)" onclick="NavigationManagement('Hunter')"><font class="mediumtitle" id="Hunter2">=></font></a>
+                <br />
+                <div id="Hunter1" style="display: none">
 
-        <div w3-include-html="EvilHunterTycoon_NavigationBar.html"></div>
-        <script>
-            includeHTML();
-        </script>
-       
+                </div>
+                <a href="#Index"><font class="mediumtitle">Index</font></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="javascript:void(0);" onclick="NavigationManagement('Index')"><font class="mediumtitle" id="Index2">=></font></a>
+                <br />
+                <div id="Index1" style="display: none">
+                    <a href="#Costume"><font class="smalltitle">-Costume</font></a>
+                    <br />
+                    <a href="#Weapon"><font class="smalltitle">-Weapon</font></a>
+                    <br />
+                    <a href="#Wing"><font class="smalltitle">-Wing</font></a>
+                    <br />
+                    <a href="#Medal"><font class="smalltitle">-Medal</font></a>
+                    <br />
+                    <a href="#CostumeStat"><font class="smalltitle">-Costume Stat</font></a>
+                    <br />
+                    <a href="#WeaponStat"><font class="smalltitle">-Weapon Stat</font></a>
+                    <br />
+                    <a href="#WingStat"><font class="smalltitle">-Wing Stat</font></a>
+                    <br />
+                    <a href="#MedalStat"><font class="smalltitle">-Medal Stat</font></a>
+                    <br />
+                    <a href="#CollectionStat"><font class="smalltitle">-Collection Stat</font></a>
+                    <br />
+                    <a href="#SetStat"><font class="smalltitle">-Set Stat</font></a>
+                    <br />
+                    <a href="#TotalStat"><font class="smalltitle">-Total Stat</font></a>
+                </div>
+                <a href="#Other"><font class="mediumtitle">Other</font></a>
+                &nbsp; &nbsp; &nbsp;
+                <a href="javascript:void(0)" onclick="NavigationManagement('Other')"><font class="mediumtitle" id="Other2">=></font></a>
+                <div id="Other1" style="display: none">
+                    <a href="#CreateTextFile" style="text-decoration:none"><font class="smalltitle">-Create Text File</font></a>
+                </div>
+            </div>
+            <br /><br /><br />
+        </div>
         <div class="title">
             Evil Hunter Tycoon Game Guide!
             <br /><br />
@@ -50,12 +99,80 @@
                 There is stat increase for "Set Collection" too. They also give stats.
                 <br />  <br />
                 Sources
+                <br /> <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Town Chief's Secret Chest.jpg" id="Index_TownChiefsSecretChest">Town Chief's Secret Chest</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Lucky Box Location.jpg">Recommend Tab and Lucky Box Section</a>
+                )
                 <br />
-                sss
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Purple Costume Chest.jpg" id="Index_PurpleCostumeChest">Purple Costume Chest</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Lucky Box Location.jpg">Recommend Tab and Lucky Box Section</a>
+                )
                 <br />
+                Costume (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Costume Location.jpg" id="Index_Shop_Costume">Gem Tab and Costume Section</a>
+                )
                 <br />
+                Colosseum (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Colosseum Location.jpg" id="Index_Colosseum">PVP Shop and Colosseum Section</a>
+                )
+                <br />
+                Battlefield of victory (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Battlefield of victory Location.jpg" id="Index_Battlefieldofvictory">PVP Shop and Battlefield of victory Section</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shiny Costume Chest A.jpg" id="Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shiny Costume Chest Location.jpg">Bonus Tab and Shiny Costume Chest Section</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shiny Costume Chest B.jpg" id="Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shop Location.jpg">Shop</a>
+                >
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Shiny Costume Chest Location.jpg">Bonus Tab and Shiny Costume Chest Section</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Dark Castle Location.jpg" id="Index_DarknessFrontYardRaid">Dark Castle</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Darkness' Front Yard Raid Location.jpg">Darkness' Front Yard Raid</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Dark Castle Location.jpg" id="Index_TheMolar">Dark Castle</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/The Molar Location.jpg">The Molar</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Dark Castle Location.jpg" id="Index_TheWisdomTooth">Dark Castle</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/The Wisdom Tooth Location.jpg">The Wisdom Tooth</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Lich Lord.jpg" id="Index_LichLord">Lich Lord Boss Chest</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/World Boss.jpg">World Boss</a>
+                )
+                <br />
+                <a href="../../GameGuide/Data/EvilHunterTycoon/Poison Hydra.jpg" id="Index_PoisonHydra">Poison Hydra Boss Chest</a>
+                (
+                <a href="../../GameGuide/Data/EvilHunterTycoon/World Boss.jpg">World Boss</a>
+                )
+                <br /> <br />
                 Index
-                <br />
+                <br /> <br />
                 <a href="#Costume">Costume</a>
                 ,
                 <a href="#Weapon">Weapon</a>
@@ -65,63 +182,63 @@
                 <a href="#Medal">Medal</a>
                 <br />  <br />
                 <!--Mobile Show (Banner 728x90)
-            <div class="mobileShow">
-                <script type="text/javascript">
-                    atOptions = {
-                        'key': '2bdc0d7fb68b183fc5a70749c8831935',
-                        'format': 'iframe',
-                        'height': 90,
-                        'width': 728,
-                        'params': {}
-                    };
-                </script>
-                <script type="text/javascript" src="//supersedeasserted.com/2bdc0d7fb68b183fc5a70749c8831935/invoke.js"></script>
-            </div>
-            <!--Mobile Show (Banner 728x90)-->
+    <div class="mobileShow">
+        <script type="text/javascript">
+            atOptions = {
+                'key': '2bdc0d7fb68b183fc5a70749c8831935',
+                'format': 'iframe',
+                'height': 90,
+                'width': 728,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//supersedeasserted.com/2bdc0d7fb68b183fc5a70749c8831935/invoke.js"></script>
+    </div>
+    <!--Mobile Show (Banner 728x90)-->
                 <!--Desktop Show (Bannerx4 300x250)
-            <div class="mobileHide">
-                <script type="text/javascript">
-                    atOptions = {
-                        'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                        'format': 'iframe',
-                        'height': 250,
-                        'width': 300,
-                        'params': {}
-                    };
-                </script>
-                <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                <script type="text/javascript">
-                    atOptions = {
-                        'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                        'format': 'iframe',
-                        'height': 250,
-                        'width': 300,
-                        'params': {}
-                    };
-                </script>
-                <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                <script type="text/javascript">
-                    atOptions = {
-                        'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                        'format': 'iframe',
-                        'height': 250,
-                        'width': 300,
-                        'params': {}
-                    };
-                </script>
-                <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                <script type="text/javascript">
-                    atOptions = {
-                        'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                        'format': 'iframe',
-                        'height': 250,
-                        'width': 300,
-                        'params': {}
-                    };
-                </script>
-                <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-            </div>
-            <!--Desktop Show (Bannerx4 300x250)-->
+    <div class="mobileHide">
+        <script type="text/javascript">
+            atOptions = {
+                'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
+        <script type="text/javascript">
+            atOptions = {
+                'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
+        <script type="text/javascript">
+            atOptions = {
+                'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
+        <script type="text/javascript">
+            atOptions = {
+                'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
+                'format': 'iframe',
+                'height': 250,
+                'width': 300,
+                'params': {}
+            };
+        </script>
+        <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
+    </div>
+    <!--Desktop Show (Bannerx4 300x250)-->
                 <div class="smalltitle" id="Costume" style="border-top: 1px solid black">
                     Costume
                     <br /> <br />
@@ -136,6 +253,7 @@
                             <font class="gameitemname">
                                 EXP increased by 5.00%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -148,6 +266,7 @@
                             <font class="gameitemname">
                                 EXP increased by 5.00%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -160,6 +279,7 @@
                             <font class="gameitemname">
                                 EXP increased by 5.00%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -184,6 +304,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_Colosseum">Buy in Colosseum</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -196,6 +317,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_Colosseum">Buy in Colosseum</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -208,6 +330,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -220,6 +343,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -232,6 +356,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -244,6 +369,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -256,6 +382,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -268,6 +395,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -280,6 +408,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -292,6 +421,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_DarknessFrontYardRaid">Darkness' Front Yard Raid (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -316,6 +446,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -328,6 +459,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -364,6 +496,9 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -376,6 +511,9 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -400,6 +538,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -412,6 +551,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.30%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -424,6 +564,7 @@
                             <font class="gameitemname">
                                 DEF increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -436,6 +577,7 @@
                             <font class="gameitemname">
                                 DEF increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -448,6 +590,7 @@
                             <font class="gameitemname">
                                 DEF increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -460,6 +603,7 @@
                             <font class="gameitemname">
                                 DEF increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -472,6 +616,7 @@
                             <font class="gameitemname">
                                 DEF increased by 1.00%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -484,6 +629,7 @@
                             <font class="gameitemname">
                                 DEF increased by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -496,6 +642,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -508,6 +655,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -520,6 +668,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -532,6 +681,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -544,6 +694,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -556,6 +709,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -568,6 +722,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -580,6 +735,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -592,6 +748,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -604,6 +761,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -616,6 +774,7 @@
                             <font class="gameitemname">
                                 HP increased by 1.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -628,6 +787,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -640,6 +800,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -652,6 +813,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -664,6 +826,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -676,6 +839,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -688,6 +852,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -700,6 +867,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -712,6 +882,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -724,6 +897,7 @@
                             <font class="gameitemname">
                                 HP increased by 1.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -736,6 +910,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -748,6 +923,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -760,6 +938,7 @@
                             <font class="gameitemname">
                                 HP increased by 1.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -772,6 +951,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -784,6 +966,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -796,6 +981,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -808,6 +996,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -820,6 +1011,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -832,6 +1024,9 @@
                             <font class="gameitemname">
                                 HP increased by 1.60%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -844,6 +1039,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -856,6 +1054,9 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -868,6 +1069,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -880,6 +1082,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -892,6 +1095,7 @@
                             <font class="gameitemname">
                                 HP increased by 1.60%
                                 <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -904,6 +1108,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -916,6 +1121,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -928,6 +1134,7 @@
                             <font class="gameitemname">
                                 HP increased by 1.60%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -940,6 +1147,7 @@
                             <font class="gameitemname">
                                 HP increased by 0.80%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -988,6 +1196,7 @@
                             <font class="gameitemname">
                                 Satiety used decreased by 10.00%
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1000,6 +1209,7 @@
                             <font class="gameitemname">
                                 20.00% chance of obtaining an additional 3rd Class Technical Book.
                                 <br />
+                                <a href="#Index_Shop_Costume">Buy in Costume</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1012,6 +1222,7 @@
                             <font class="gameitemname">
                                 Increase Against Boss type 2% damage
                                 <br />
+                                <a href="#Index_PoisonHydra">Poison Hydra Boss Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1024,6 +1235,7 @@
                             <font class="gameitemname">
                                 Increase Against Boss type 2% damage
                                 <br />
+                                <a href="#Index_LichLord">Lich Lord Boss Chest</a>
                             </font>
                         </div>
                     </div>
@@ -1043,6 +1255,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1055,6 +1268,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1067,6 +1281,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1079,6 +1294,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1091,6 +1307,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1103,6 +1320,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1115,6 +1333,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1127,6 +1346,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1139,6 +1359,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1151,6 +1372,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1163,6 +1385,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1175,6 +1398,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1187,6 +1411,9 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1199,6 +1426,9 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1211,6 +1441,9 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1223,6 +1456,9 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1235,6 +1471,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1247,6 +1484,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1259,6 +1497,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1271,6 +1510,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1283,6 +1523,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1295,6 +1536,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1307,6 +1549,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1319,6 +1562,7 @@
                             <font class="gameitemname">
                                 ATK increased by 0.60%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1331,6 +1575,7 @@
                             <font class="gameitemname">
                                 DEF increased by 3.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1343,6 +1588,7 @@
                             <font class="gameitemname">
                                 DEF increased by 3.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1355,6 +1601,7 @@
                             <font class="gameitemname">
                                 DEF increased by 3.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1367,6 +1614,7 @@
                             <font class="gameitemname">
                                 DEF increased by 3.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1379,6 +1627,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1391,6 +1640,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1403,6 +1653,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1415,6 +1666,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1427,6 +1679,9 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1439,6 +1694,9 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1451,6 +1709,9 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1463,6 +1724,9 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1475,6 +1739,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1487,6 +1752,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1499,6 +1765,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1511,6 +1778,7 @@
                             <font class="gameitemname">
                                 HP increased by 2.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1523,6 +1791,7 @@
                             <font class="gameitemname">
                                 CRIT increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1535,6 +1804,7 @@
                             <font class="gameitemname">
                                 CRIT increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1547,6 +1817,7 @@
                             <font class="gameitemname">
                                 CRIT increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1559,6 +1830,7 @@
                             <font class="gameitemname">
                                 CRIT increased by 1.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1571,6 +1843,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1583,6 +1856,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1595,6 +1869,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1607,6 +1882,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1619,6 +1895,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 3.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1631,6 +1908,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 3.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1643,6 +1921,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 3.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1655,6 +1934,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 3.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1722,6 +2002,7 @@
                             <font class="gameitemname">
                                 ATK increased by 3.00%
                                 <br />
+                                <a href="#Index_Battlefieldofvictory">Buy in Battlefield of victory</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1734,6 +2015,9 @@
                             <font class="gameitemname">
                                 ATK increased by 1.50%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1746,6 +2030,7 @@
                             <font class="gameitemname">
                                 ATK increased by 3.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1770,6 +2055,9 @@
                             <font class="gameitemname">
                                 DEF increased by 5.00%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1782,6 +2070,7 @@
                             <font class="gameitemname">
                                 HP increased by 5.00%
                                 <br />
+                                <a href="#Index_DarknessFrontYardRaid">Darkness' Front Yard Raid (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1794,6 +2083,9 @@
                             <font class="gameitemname">
                                 HP increased by 2.50%
                                 <br />
+                                <a href="#Index_PurpleCostumeChest">Purple Costume Chest</a>
+                                <br />
+                                <a href="#Index_ShinyCostumeChestA">Shiny Costume Chest A</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1818,6 +2110,7 @@
                             <font class="gameitemname">
                                 CRIT increased by 2.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1830,6 +2123,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 5.00%
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1842,6 +2136,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 5.00%
                                 <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Lv 1, ? Reward)</a><!--Pending---------------------------------------------------->
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1854,6 +2149,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases by 5.00%
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1878,6 +2174,7 @@
                             <font class="gameitemname">
                                 Increase Against Boss type 5% damage
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1890,6 +2187,7 @@
                             <font class="gameitemname">
                                 Increase Against Primate type 5% damage
                                 <br />
+                                <a href="#Index_ShinyCostumeChestB">Shiny Costume Chest B</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1902,6 +2200,7 @@
                             <font class="gameitemname">
                                 Increase Against Primate type 5% damage
                                 <br />
+                                <a href="#Index_TownChiefsSecretChest">Town Cheif's Secret Chest</a>
                             </font>
                         </div>
                     </div>
@@ -1921,6 +2220,7 @@
                             <font class="gameitemname">
                                 ATK increased by 3.00%
                                 <br />
+                                <a href="#Index_Battlefieldofvictory">Buy in Battlefield of victory</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1945,6 +2245,7 @@
                             <font class="gameitemname">
                                 HP increased by 5.00%
                                 <br />
+                                <a href="#Index_DarknessFrontYardRaid">Darkness' Front Yard Raid (Clear Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1957,6 +2258,9 @@
                             <font class="gameitemname">
                                 HP increased by 5.00%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Lv 15, ? Reward)</a><!--Pending---------------------------------------------------->
+                                <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Lv 1, ? Reward)</a><!--Pending---------------------------------------------------->
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1969,6 +2273,9 @@
                             <font class="gameitemname">
                                 CRIT increased by 1.00%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Lv 8, 9, 10, 11, 12, 13, 14, 15, ? Reward)</a><!--Pending---------------------------------------------------->
+                                <br />
+                                <a href="#Index_TheWisdomTooth">The Wisdom Tooth (Lv 1, ? Reward)</a><!--Pending---------------------------------------------------->
                             </font>
                         </div>
                         <div class="gameitem">
@@ -1981,6 +2288,7 @@
                             <font class="gameitemname">
                                 Critical Hit Damage increases 2.50%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Lv 6, 7, 8 Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -2005,6 +2313,7 @@
                             <font class="gameitemname">
                                 Satiety used decreased by 10.00%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Lv 1, 2 Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -2017,6 +2326,7 @@
                             <font class="gameitemname">
                                 Stamina Consumed decreased by 10.00%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Lv 3, 4 Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -2029,6 +2339,7 @@
                             <font class="gameitemname">
                                 Mood Consumed decreased by 10.00%
                                 <br />
+                                <a href="#Index_TheMolar">The Molar (Lv 4, 5, 6 Reward)</a>
                             </font>
                         </div>
                         <div class="gameitem">
@@ -2505,6 +2816,8 @@
                             <div class="stattable1">
                                 <div style="border-right:2px solid black">
                                     Chance of obtaining an additional 3rd Class Technical Book (20% Max)
+                                    <br />
+
                                 </div>
                                 <div id="IndexCollectionChance3rdBookStat" style="text-align: right; padding-right: 10%"></div>
                             </div>
@@ -2646,64 +2959,6 @@
                             <br />
                         </div>
                     </div>
-                    <!--Mobile Show (Banner 728x90)
-                <div class="mobileShow">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': '2bdc0d7fb68b183fc5a70749c8831935',
-                            'format': 'iframe',
-                            'height': 90,
-                            'width': 728,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/2bdc0d7fb68b183fc5a70749c8831935/invoke.js"></script>
-                </div>
-                <!--Mobile Show (Banner 728x90)-->
-                    <!--Desktop Show (Bannerx4 300x250)
-                <div class="mobileHide">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                </div>
-                <!--Desktop Show (Bannerx4 300x250)-->
                     <div id="TotalStat" class="smalltitle" style="border-bottom:3px solid black">
                         Total Stat (Collection Stat + Set Stat)
                         <br /><br />
@@ -2803,111 +3058,16 @@
                             <br />
                         </div>
                     </div>
-                    <!--Mobile Show (Banner 728x90)
-                <div class="mobileShow">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': '2bdc0d7fb68b183fc5a70749c8831935',
-                            'format': 'iframe',
-                            'height': 90,
-                            'width': 728,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/2bdc0d7fb68b183fc5a70749c8831935/invoke.js"></script>
-                </div>
-                <!--Mobile Show (Banner 728x90)-->
-                    <!--Desktop Show (Bannerx4 300x250)
-                <div class="mobileHide">
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                    <script type="text/javascript">
-                        atOptions = {
-                            'key': 'a2b8ab8eddacfcc6daae57d0e0453383',
-                            'format': 'iframe',
-                            'height': 250,
-                            'width': 300,
-                            'params': {}
-                        };
-                    </script>
-                    <script type="text/javascript" src="//supersedeasserted.com/a2b8ab8eddacfcc6daae57d0e0453383/invoke.js"></script>
-                </div>
-                <!--Desktop Show (Bannerx4 300x250)-->
                 </div>
             </div>
-            <div id="Other">
-                <div class="title" id="Other">
-                    Other
-                    <br /><br />
-                </div>
-                <div id="CreateTextFile">
-                    <div class="mediumtitle">
-                        Create Text File
-                        <br /> <br />
-                    </div>
-                    Create a Text File on your Device for Storing Data.
-                    <br />
-                    (On Computer)
-                    <br /> <br />
-                    I will use the "Text File" to store your data.
-                    <br />
-                    Please do not edit the "Text File" since it might crash.
-                    <br />
-                    (Deleting the text inside will fix it)
-                    <br /><br />
-                    The "Text File" is a backup file
-                    <br />
-                    since the page will work fine even without it.
-                    <br />
-                    But your "Saved Data" will be lost if you clear your Browser Data
-                    <br />
-                    (like clearing cookie, site data, cached files)
-                    <br />
-                    The "Text File" is for recovering your data if that happen.
-                    <br />
-                    So make sure to save the file locally, regularly.
-                    <br /><br />
-                    Save Text File :
-                    <input type="button" style="font-size:40px" id="SaveTextFile" value="Choose Text File" onclick="SaveTextFile()" />
-                    <font id="LastSaveDate"></font>
-                    <br />
-                    <font style="color:red">(!!!The Data will be Saved as soon as you choose the "Text File!!!)</font>
-                    <br />
-                    <font style="color:red">(!!!Be careful not to choose the wrong file!!!)</font>
-                    <br /><br />
-                    Recover Data :
-                    <input type="file" style="font-size:40px" accept=".txt" id="LoadTextFile" onchange="LoadTextFile()" />
-                </div>
-            </div>
-            <br /><br /><br />
+            <div w3-include-html="EvilHunterTycoon_Index.html"></div>
+            <script>
+                includeHTML();
+            </script>
+            <div w3-include-html="EvilHunterTycoon_Other.html"></div>
+            <script>
+                includeHTML();
+            </script>
         </div>
     </div>
     <div class="about">
