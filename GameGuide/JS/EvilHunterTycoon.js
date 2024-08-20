@@ -173,7 +173,6 @@ function SetPageData() {
 }
 //--------------------------------------------------------------------------------------------------------------------Index Collection Button Click
 function IndexCollectionButton(let) {
-    alert(let);
     if (let.split("_")[1] == "Costume") {
         if (IndexCostumeDataText[let.split("_")[2]] == 0) {
             document.getElementById("Index_Costume_" + let.split("_")[2]).src = "../../GameGuide/Data/EvilHunterTycoon/O.jpg";
