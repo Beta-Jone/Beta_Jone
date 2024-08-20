@@ -170,8 +170,9 @@ a:hover {
     align-content: center;
     text-align: left;
     grid-template-columns: 100%;
-    width: 80vw;
-    padding-left: 10%;
+    width: 90vw;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .stattable1 {
@@ -208,9 +209,8 @@ a:hover {
     align-content: center;
     text-align: center;
     grid-template-columns: 100%;
-    width: 80vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 90vw;
+    padding-left: 5%;
 }
 .Hunter_Characteristic1 {
     display: grid;
@@ -229,9 +229,9 @@ a:hover {
     display: grid;
     align-content: center;
     grid-template-columns: 100%;
-    width: 80vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 90vw;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 .Hunter_Tier_Stat1 {
     display: grid;
@@ -250,9 +250,9 @@ a:hover {
     display: grid;
     align-content: center;
     grid-template-columns: 100%;
-    width: 80vw;
-    padding-left: 10%;
-    padding-right: 10%;
+    width: 90vw;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .Hunter_Stat_Level1 {
@@ -264,6 +264,29 @@ a:hover {
 }
 
 .Hunter_Stat_Level2 {
+    padding-left: 10px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+    overflow-wrap: anywhere;
+}
+.Hunter_Rate {
+    display: grid;
+    align-content: center;
+    grid-template-columns: 100%;
+    width: 90vw;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.Hunter_Rate1 {
+    display: grid;
+    align-content: center;
+    text-align: center;
+    grid-template-columns: 25% 15% 15% 15% 15% 15%;
+    width: 100%;
+}
+
+.Hunter_Rate2 {
     padding-left: 10px;
     border-bottom: 2px solid black;
     border-left: 2px solid black;
