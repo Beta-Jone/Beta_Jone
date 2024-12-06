@@ -1,9 +1,9 @@
 ﻿body {
     background-color: #cfcfcf;
     font-size: 100%;
-    cursor:default;
+    cursor: default;
 }
-/*-----------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
 .title {
     position: fixed;
     background-color: white;
@@ -17,21 +17,34 @@
     overflow-x: hidden;
     overflow-y: auto;
 }
-
+/*---------------------------------------------------------------------------------------------------------*/
 .title1 {
     position: absolute;
     top: 0%;
     left: 1vw;
     padding-top: 10px;
 }
-
+/*------------------------------------------------------------------*/
 .title2 {
     position: absolute;
-    top: 0%;
-    left: calc(1vw + 650px);
-    padding-top: 10px;
+    padding-top: 28px;
+    padding-left: 20px;
+    right: 200px;
+    font-size: 30px;
+    border-left: 2px solid black;
+    height: 62px;
 }
-/*-----------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------*/
+.title3 {
+    position: absolute;
+    padding-top: 28px;
+    padding-left: 10px;
+    right: 10px;
+    font-size: 30px;
+    border-left: 2px solid black;
+    height: 62px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
 .content {
     position: relative;
     top: 120px;
@@ -39,7 +52,7 @@
     width: calc(100% - 70px);
     height: 100%;
 }
-
+/*---------------------------------------------------------------------------------------------------------*/
 .content1 {
     position: relative;
     margin-left: 13%;
@@ -47,13 +60,14 @@
     width: 74%;
     background-color: white;
 }
+
 .content11 {
     position: relative;
     font-size: 40px;
     top: 20px;
     left: 20px;
 }
-
+/*------------------------------------------------------------------*/
 .content2 {
     position: relative;
     margin-left: 5%;
@@ -62,27 +76,74 @@
     background-color: white;
     top: 80px;
 }
+
 .content21 {
     position: relative;
-    font-size: 40px;
-    text-align:center;
+    font-size: 50px;
+    text-align: center;
     top: 20px;
     left: 20px;
 }
+
 .content22 {
     position: relative;
     display: inline-grid;
     width: 90%;
-    left: 5%;
+    left: 4%;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: auto;
+    grid-gap: 50px;
+}
+
+.content221 {
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+}
+/*------------------------------------------------------------------*/
+.content3 {
+    position: relative;
+    margin-left: 5%;
+    border-radius: 25px;
+    width: 90%;
+    background-color: white;
+    top: 150px;
+}
+
+.content31 {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    top: 20px;
+}
+
+.content32 {
+    position: relative;
+    display: inline-grid;
+    top: 50px;
+    width: 90%;
+    left: 4%;
     grid-template-columns: 48% 48%;
     grid-gap: 70px;
 }
-.content221 {
-    position: relative;
-    display: inline-grid;
+
+.content321 {
     height: 500px;
     border: 1px solid black;
     border-radius: 10px;
-    grid-template-columns: 150px auto;
 }
-/*-----------------------------------------------------------------------------------------*/
+
+.content3211 {
+    position: relative;
+    display: inline-grid;
+    grid-template-columns: 150px auto;
+    grid-template-rows: 150px auto;
+}
+
+.content3212 {
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+}
+/*---------------------------------------------------------------------------------------------------------------------------------------*/
